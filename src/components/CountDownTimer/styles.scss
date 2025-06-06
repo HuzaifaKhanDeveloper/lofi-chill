@@ -1,0 +1,128 @@
+.countdown {
+  height: auto;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  padding: 10px 6px 8px 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  min-width: 0;
+
+  .displayTime {
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+  }
+
+  .countdownNotRun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    transform: none;
+    width: 100%;
+
+    .input {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+      margin-top: 10px;
+      gap: 6px;
+      width: 100%;
+
+      span {
+        color: #f3a952;
+        margin: 0 2px 6px 2px;
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+
+      .number-input {
+        width: 36px;
+        height: 24px;
+        margin: 0 2px 6px 2px;
+        color: white;
+        background-color: rgba(20, 20, 29, 0.9);
+        border: 2px solid #f3a952;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+
+        &:focus {
+          outline: none;
+          border-color: #fff;
+          box-shadow: 0 0 0 2px rgba(243, 169, 82, 0.3);
+        }
+
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      }
+    }
+    .buttonTimer.setup {
+      margin: 8px 0 0 0;
+      background-color: #f3a952;
+      color: #232323;
+      width: 100%;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 6px 8px;
+    }
+  }
+
+  .countdownRunning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: none;
+    .controller {
+      display: flex;
+      gap: 6px;
+      margin-top: 8px;
+    }
+  }
+}
+
+.buttonTimer {
+  margin: 5px 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #f3a952;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 60px;
+  font-size: 0.9rem;
+
+  &:hover {
+    background-color: #e69a4a;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.buttonTimer.setup {
+  margin: 18px 0 0 0;
+  background-color: #f3a952;
+  color: #232323;
+  font-weight: 600;
+  &:hover {
+    background-color: #e69a4a;
+  }
+}

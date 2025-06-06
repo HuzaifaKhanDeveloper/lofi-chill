@@ -1,0 +1,59 @@
+.separatorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+  margin: 0 0 10px 0px;
+}
+
+.separator {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #f3a952;
+  border-radius: 6px;
+  margin: 2px 0px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.timerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+  background: rgba(20, 20, 29, 0.9);
+  padding: 4px 2px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.singleDigit {
+  min-width: 0;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1rem;
+  padding: 2px 4px;
+  min-width: 16px;
+  border-radius: 4px;
+}
+
+@media (max-width: 430px) {
+  .timerContainer {
+    padding: 10px;
+    margin-bottom: 18px;
+  }
+  .singleDigit {
+    font-size: 1.1rem;
+    padding: 4px 6px;
+    min-width: 18px;
+  }
+}

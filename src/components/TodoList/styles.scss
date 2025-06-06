@@ -1,0 +1,57 @@
+.todoList {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.todoList .form-control,
+.todoList input[type="text"] {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  padding: 4px 6px;
+}
+
+.todoList .btn,
+.todoList button {
+  border-radius: 6px;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+}
+
+.todolistList {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.todolistList .list-group-item {
+  border-radius: 6px;
+  margin-bottom: 3px;
+  box-sizing: border-box;
+  word-break: break-word;
+  font-size: 0.9rem;
+}
+
+.todoList .message,
+.todoList .nothing {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  padding: 0 1px;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+.todolistList::-webkit-scrollbar {
+  display: none;
+}
