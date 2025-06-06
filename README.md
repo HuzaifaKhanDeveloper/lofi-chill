@@ -28,7 +28,7 @@
 ## 🎯 Live Demo
 
 <div align="center">
-  <a href="https://your-deployment-url.com">
+  <a href="https://lofi-music-bay.vercel.app/">
     <img src="public/assets/imageDemo/demo2.png" alt="Live Demo" width="600px"/>
     <br/>
     <strong>Try it out →</strong>
