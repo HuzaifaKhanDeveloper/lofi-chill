@@ -258,8 +258,8 @@ We love your input! We want to make contributing to this project as easy and tra
 
 If you enjoy using this project and want to help it grow, consider supporting us!
 
-[![Sponsor](https://img.shields.io/badge/Sponsor-❤-ff69b4?style=for-the-badge)](https://github.com/sponsors/your-username)
-[![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20coffee-Ko--fi-29abe0?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/your-kofi-username)
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤-ff69b4?style=for-the-badge)](https://github.com/sponsors/HuzaifaKhanDeveloper)
+[![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20coffee-Ko--fi-29abe0?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/huzaifakhandev)
 
 - **Email:** [huzaifakhandeveloper@gmail.com](mailto:huzaifakhandeveloper@gmail.com)
 
