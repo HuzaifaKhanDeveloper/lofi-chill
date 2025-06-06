@@ -20,9 +20,9 @@
    
   A modern, interactive lofi music streaming platform built with React.js and TypeScript. Experience a soothing and relaxing ambiance with our carefully curated lofi music collection. Perfect for studying, working, or just relaxing.
   
-  <img src="https://img.shields.io/github/stars/HuzaifaKhanDeveloper/lofi-chill?style=social" alt="GitHub Stars"/>
-  <img src="https://img.shields.io/github/forks/HuzaifaKhanDeveloper/lofi-chill?style=social" alt="GitHub Forks"/>
-  <img src="https://img.shields.io/github/issues/HuzaifaKhanDeveloper/lofi-chill" alt="GitHub Issues"/>
+  <img src="https://img.shields.io/github/stars/HuzaifaKhanDeveloper/lofi-music?style=social" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/forks/HuzaifaKhanDeveloper/lofi-music?style=social" alt="GitHub Forks"/>
+  <img src="https://img.shields.io/github/issues/HuzaifaKhanDeveloper/lofi-music" alt="GitHub Issues"/>
 </div>
 
 ## 🎯 Live Demo
@@ -171,10 +171,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/HuzaifaKhanDeveloper/lofi-chill-website.git
+git clone https://github.com/HuzaifaKhanDeveloper/lofi-music.git
 
 # Navigate to project directory
-cd lofi-chill-website
+cd lofi-music
 
 # Install dependencies
 npm install --legacy-peer-deps
